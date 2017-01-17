@@ -1,0 +1,76 @@
+{
+  "books": [
+    {
+      "id": "0",
+      "title": "The Fellowship of the Ring",
+      "author": "J. R. R. Tolkien",
+      "image": "images/lord1.jpg",
+      "category": "fantasy",
+      "price": "6.29",
+      "description": "Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom"
+    },
+    {
+      "id": "1",
+      "title": "The Two Towers",
+      "author": "J. R. R. Tolkien",
+      "image": "images/lord2.jpg",
+      "category": "fantasy",
+      "price": "8.99",
+      "description": "Now they continue their journey alone down the great River Anduin – alone"
+    },
+    {
+      "id": "2",
+      "title": "The Return of the King",
+      "author": "J. R. R. Tolkien",
+      "image": "images/lord3.jpg",
+      "category": "fantasy",
+      "price": "8.83",
+      "description": "The armies of the Dark Lord Sauron are massing as his evil shadow spreads ever wider. Men, Dwarves, Elves and Ents unite forces to do battle against the Dark"
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "images/gg.jpg",
+      "category": "classic",
+      "price": "3.45",
+      "description": "THE GREAT GATSBY is a 1925 novel written by American author F. Scott Fitzgerald that follows a cast of characters living in the town of West Egg on prosperous Long Island in the summer of 1922."
+    },
+    {
+      "id": "4",
+      "title": "To Kill A Mockingbird",
+      "author": "Harper Lee",
+      "image": "images/mock.jpg",
+      "category": "classic",
+      "price": "4.89",
+      "description": "To Kill a Mockingbird is a coming-of-age story, an anti-racist novel, a historical drama of the Great Depression and a sublime example of the Southern writing tradition."
+    },
+    {
+      "id": "5",
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "image": "images/jobs.jpg",
+      "category": "biography",
+      "price": "7.14",
+      "description": "Walter Isaacson tells the story of the rollercoaster life and searingly intense personality of creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries"
+    },
+    {
+      "id": "6",
+      "title": "The Godfather",
+      "author": "Mario Puzo",
+      "image": "images/god.jpg",
+      "category": "fiction",
+      "price": "7.99",
+      "description": "Tyrant, blackmailer, racketeer, murderer - his influence reaches every level of American society. Meet Don Corleone, a friendly man, a just man, a reasonable man. "
+    },
+    {
+      "id": "7",
+      "title": "The Little Prince",
+      "author": "Antoine De Saint-Exupery",
+      "image": "images/prince.jpg",
+      "category": "fiction",
+      "price": "5.59",
+      "description": "Often seen as a symbol of childhood innocence, Antoine de Saint-Exupery’s best-selling book The Little Prince is cherished by children and adults alike across the globe."
+    }
+  ]
+}

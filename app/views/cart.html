@@ -1,0 +1,48 @@
+<main class="mdl-layout__content">
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--8-col">
+            <h1>Cart</h1>
+        </div>
+    </div>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--8-col">
+            <ul class="demo-list-three mdl-list">
+                <li class="mdl-list__item mdl-list__item--three-line" ng-repeat="book in vm.books">
+                    <span class="mdl-list__item-primary-content">
+                        <i class="material-icons mdl-list__item-avatar">person</i>
+                        <span>{{ book.title }}</span>
+                        <span class="mdl-list__item-text-body">
+                            {{book.description}}
+                        </span>
+                    </span>
+                    <span class="mdl-list__item-secondary-content">Quantity: {{book.quantity}}</span>
+                    <button class="mdl-button mdl-js-button mdl-button--icon" ng-click="vm.addItem(book.id, 1)">
+                        <i class="material-icons">add</i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--icon" ng-click="vm.removeItem(book.id, 1)">
+                        <i class="material-icons">remove</i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--icon" ng-click="vm.removeItem(book.id)">
+                        <i class="material-icons">delete</i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">
+            <div class="mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">Order Summary</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Total Price: {{vm.total | currency}}
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" ng-click="vm.checkout()">
+                        Checkout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

@@ -1,0 +1,18 @@
+<main class="mdl-layout__content">
+
+    <div class="mdl-grid">
+        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+            <div class="mdl-tabs__tab-bar">
+                <a href="" class="mdl-tabs__tab" ng-click="vm.selectCategory(1)" ng-class="{'is-active' : vm.isTabSelected(1)} ">All</a>
+                <a href="" class="mdl-tabs__tab" ng-click="vm.selectCategory(2)" ng-class="{'is-active' : vm.isTabSelected(2)} ">Fiction</a>
+                <a href="" class="mdl-tabs__tab" ng-click="vm.selectCategory(3)" ng-class="{'is-active' : vm.isTabSelected(3)} ">Fantasy</a>
+                <a href="" class="mdl-tabs__tab" ng-click="vm.selectCategory(4)" ng-class="{'is-active' : vm.isTabSelected(4)} ">Classic</a>
+                <a href="" class="mdl-tabs__tab" ng-click="vm.selectCategory(5)" ng-class="{'is-active' : vm.isTabSelected(5)} ">Biography</a>
+            </div>
+        </div>
+
+        <book class="mdl-cell mdl-cell--3-col" ng-repeat="book in vm.books | filter:vm.category"></book>
+
+    </div>
+</main>
+
